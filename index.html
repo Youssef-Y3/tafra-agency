@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>TAFRA — Cairo-Based Creative Tech Agency · AI · Design · Video · Marketing</title>
+  <meta name="description"
+    content="TAFRA — Cairo-Based Creative Tech Agency. AI Automation, Graphic Design, Video Editing & Marketing. We Solve. You Profit." />
+  <meta name="keywords"
+    content="TAFRA, Cairo, Creative Agency, AI Automation, Graphic Design, Video Editing, Branding, Marketing, Egypt" />
+  <meta name="author" content="Youssef Essam · TAFRA Agency" />
+  <meta name="theme-color" content="#FF0000" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TAFRA — We Solve. You Profit." />
+  <meta property="og:description" content="Cairo-Based Creative Tech Agency. AI × Design × Video × Marketing." />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta property="og:url" content="https://tafra.agency" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TAFRA — We Solve. You Profit." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;800;900&family=Cairo:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ==================== PRELOADER ==================== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-words">
+      <span class="pl-word">AI.</span>
+      <span class="pl-word">DESIGN.</span>
+      <span class="pl-word">VIDEO.</span>
+      <span class="pl-word">MONEY.</span>
+      <span class="pl-word">CRAZY.</span>
+      <span class="pl-word">UNIQUE.</span>
+      <span class="pl-word pl-final">TAFRA<i>.</i></span>
+    </div>
+    <div class="preloader-bar"><span></span></div>
+  </div>
+
+  <!-- ==================== CURSOR ==================== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Noise + Scroll Progress -->
+  <div class="noise-overlay"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="nav-logo" data-cursor="hover">
+        <span class="logo-text">TAFRA<i class="dot">.</i></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" data-cursor="hover">Home</a>
+        <a href="#about" data-cursor="hover">About</a>
+        <a href="#services" data-cursor="hover">Services</a>
+        <a href="#works" data-cursor="hover">Works</a>
+        <a href="#pricing" data-cursor="hover">Pricing</a>
+        <a href="#packages" data-cursor="hover">Packages</a>
+        <a href="#process" data-cursor="hover">Process</a>
+        <a href="#contact" class="nav-cta" data-cursor="hover">Start Project →</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="home">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-ring hero-ring-1"></div>
+    <div class="hero-ring hero-ring-2"></div>
+
+    <div class="container hero-inner">
+      <div class="hero-tag" data-aos="fade-down">
+        <span class="dot-pulse"></span>
+        Cairo-Based · Available Worldwide · 2026
+      </div>
+
+      <div class="hero-brand"><span>TAFRA</span><i class="dot">.</i></div>
+      <p class="hero-eyebrow">Cairo-Based Creative Tech Agency</p>
+
+      <h1 class="hero-title">
+        <span class="line"><span class="word">WE</span> <span class="word red">SOLVE<i>.</i></span></span>
+        <span class="line"><span class="word">YOU</span> <span class="word red">PROFIT<i>.</i></span></span>
+      </h1>
+
+      <p class="hero-sub" data-aos="fade-up" data-aos-delay="600">
+        TAFRA is where <b>AI automation</b>, <b>graphic design</b>, <b>video editing</b> and <b>marketing</b> collide
+        to make your business unstoppable. We don't just create — we engineer results.
+      </p>
+
+      <div class="hero-cta" data-aos="fade-up" data-aos-delay="800">
+        <a href="#booking" class="btn btn-primary" data-cursor="hover">Book a Free Call <span>→</span></a>
+        <a href="#works" class="btn btn-ghost" data-cursor="hover">See our work</a>
+      </div>
+
+      <div class="hero-tags-strip" data-aos="fade-up" data-aos-delay="900">
+        <span>◆ Visual Storytelling</span>
+        <span>◆ Graphic Design</span>
+        <span>◆ Video Editing</span>
+        <span>◆ AI Automation</span>
+        <span>◆ Brand Identity</span>
+      </div>
+
+      <div class="hero-badges" data-aos="fade-up" data-aos-delay="1000">
+        <div class="badge"><b data-count="120">0</b><span>+ Projects delivered</span></div>
+        <div class="badge"><b data-count="40">0</b><span>+ Global clients</span></div>
+        <div class="badge"><b>∞</b><span>Creative possibilities</span></div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==================== MARQUEE ==================== -->
+  <section class="marquee">
+    <div class="marquee-track">
+      <span>AI AUTOMATION</span><i>✦</i>
+      <span>BRAND DESIGN</span><i>✦</i>
+      <span>VIDEO PRODUCTION</span><i>✦</i>
+      <span>MARKETING</span><i>✦</i>
+      <span>MOTION GRAPHICS</span><i>✦</i>
+      <span>WE SOLVE. YOU PROFIT.</span><i>✦</i>
+      <span>AI AUTOMATION</span><i>✦</i>
+      <span>BRAND DESIGN</span><i>✦</i>
+      <span>VIDEO PRODUCTION</span><i>✦</i>
+      <span>MARKETING</span><i>✦</i>
+      <span>MOTION GRAPHICS</span><i>✦</i>
+      <span>WE SOLVE. YOU PROFIT.</span><i>✦</i>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-aos="fade-up">01 · Who We Are</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          We are <span class="red">TAFRA<i>.</i></span>
+        </h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text" data-aos="fade-up">
+          <p>
+            TAFRA is a <b>Cairo-based creative tech agency</b> built for the modern business.
+            We exist at the intersection of <b>artificial intelligence</b>, <b>visual design</b>,
+            and <b>video storytelling</b> — and we use all four to solve real problems and generate real revenue.
+          </p>
+          <p>
+            We're not a generic agency. We're specialists who move fast, think creatively, and deliver work
+            that actually makes a difference to your bottom line.
+          </p>
+          <blockquote>"Your problem is our puzzle. Your profit is our proof."</blockquote>
+          <a href="#booking" class="btn btn-outline" data-cursor="hover">Let's build →</a>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card" data-aos="fade-up" data-cursor="hover">
+            <h3 data-count="120">0</h3>
+            <p>Projects delivered</p>
+          </div>
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="100" data-cursor="hover">
+            <h3 data-count="40">0</h3>
+            <p>Global clients</p>
+          </div>
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="200" data-cursor="hover">
+            <h3 data-count="98">0</h3>
+            <p>Retention rate %</p>
+          </div>
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="300" data-cursor="hover">
+            <h3>∞</h3>
+            <p>Creative possibilities</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES ==================== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-aos="fade-up">02 · What We Do</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          Four weapons. <br /><span class="red">One agency<i>.</i></span>
+        </h2>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card" data-aos="fade-up" data-cursor="hover">
+          <span class="service-num">01</span>
+          <h3>AI Automation</h3>
+          <p>We build intelligent systems that work while you sleep. Custom bots, workflow automation, and
+            problem-solving algorithms.</p>
+          <ul>
+            <li>Chatbots (WhatsApp / FB / Web)</li>
+            <li>GPT-powered assistants</li>
+            <li>Workflow automation (n8n / Zapier)</li>
+            <li>AI content generation</li>
+            <li>CRM automation</li>
+            <li>Custom AI tool development</li>
+          </ul>
+          <a href="#pricing" class="service-arrow" data-cursor="hover">See prices →</a>
+        </article>
+
+        <article class="service-card" data-aos="fade-up" data-aos-delay="100" data-cursor="hover">
+          <span class="service-num">02</span>
+          <h3>Graphic Design</h3>
+          <p>Every pixel has a purpose. Logos, brand systems, social content, and print design that commands attention.
+          </p>
+          <ul>
+            <li>Logos + full brand identity</li>
+            <li>Social media content packs</li>
+            <li>Print (menus, brochures, packaging)</li>
+            <li>Pitch decks & presentations</li>
+            <li>Infographics & icon sets</li>
+            <li>Monthly design retainers</li>
+          </ul>
+          <a href="#pricing" class="service-arrow" data-cursor="hover">See prices →</a>
+        </article>
+
+        <article class="service-card" data-aos="fade-up" data-aos-delay="200" data-cursor="hover">
+          <span class="service-num">03</span>
+          <h3>Video Editing</h3>
+          <p>We cut content that stops the scroll. Reels, YouTube videos, ads, and cinematic brand films.</p>
+          <ul>
+            <li>Reels & TikTok packs</li>
+            <li>YouTube long-form editing</li>
+            <li>Motion graphics & VFX</li>
+            <li>Commercial ads & explainer videos</li>
+            <li>Corporate & event highlights</li>
+            <li>Color grading & audio mixing</li>
+          </ul>
+          <a href="#pricing" class="service-arrow" data-cursor="hover">See prices →</a>
+        </article>
+
+        <article class="service-card" data-aos="fade-up" data-aos-delay="300" data-cursor="hover">
+          <span class="service-num">04</span>
+          <h3>Marketing</h3>
+          <p>Result-driven marketing that converts. Full-funnel strategy and paid ads that make you money — not just
+            noise.</p>
+          <ul>
+            <li>Social media management</li>
+            <li>Meta & Google ads management</li>
+            <li>SEO & analytics</li>
+            <li>Email & WhatsApp marketing</li>
+            <li>Content strategy & calendars</li>
+            <li>Product launch campaigns</li>
+          </ul>
+          <a href="#pricing" class="service-arrow" data-cursor="hover">See prices →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== WORKS ==================== -->
+  <section class="works section" id="works">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-aos="fade-up">03 · Selected Works</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          Selected <span class="red">Chaos<i>.</i></span>
+        </h2>
+      </div>
+
+      <div class="works-filter" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all" data-cursor="hover">All</button>
+        <button class="filter-btn" data-filter="design" data-cursor="hover">Design</button>
+        <button class="filter-btn" data-filter="video" data-cursor="hover">Video</button>
+        <button class="filter-btn" data-filter="ai" data-cursor="hover">AI</button>
+        <button class="filter-btn" data-filter="branding" data-cursor="hover">Branding</button>
+      </div>
+
+      <div class="works-grid" id="worksGrid"></div>
+
+      <p class="works-note" data-aos="fade-up">
+        Want to see more? Full portfolio on
+        <a href="https://www.behance.net/youssefessam27" target="_blank" data-cursor="hover">Behance →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== FULL PRICING (from PDF) ==================== -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-aos="fade-up">04 · Full Pricing Palette 2026</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          Every service. <br /><span class="red">Transparent prices<i>.</i></span>
+        </h2>
+        <p class="section-lead" data-aos="fade-up" data-aos-delay="200">
+          No hidden fees. Pick individual services or bundle them into a monthly package below.
+        </p>
+
+        <div class="currency-toggle" data-aos="fade-up" data-aos-delay="300">
+          <button class="currency-btn active" data-currency="USD">USD $</button>
+          <button class="currency-btn" data-currency="EGP">EGP £</button>
+        </div>
+      </div>
+
+      <div class="pricing-tabs" data-aos="fade-up">
+        <button class="tab-btn active" data-tab="design" data-cursor="hover">Graphic Design</button>
+        <button class="tab-btn" data-tab="video" data-cursor="hover">Video Editing</button>
+        <button class="tab-btn" data-tab="marketing" data-cursor="hover">Marketing</button>
+        <button class="tab-btn" data-tab="ai" data-cursor="hover">AI Automation</button>
+        <button class="tab-btn" data-tab="addons" data-cursor="hover">Add-ons</button>
+      </div>
+
+      <div class="pricing-body" data-aos="fade-up">
+        <div class="price-table" id="priceTable"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PACKAGES ==================== -->
+  <section class="packages section" id="packages">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-aos="fade-up">05 · Monthly Packages</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          Pick your <span class="red">weapon<i>.</i></span>
+        </h2>
+        <p class="section-lead" data-aos="fade-up" data-aos-delay="200">
+          The 3 bundled packages from our Pricing Palette 2026.
+        </p>
+      </div>
+
+      <div class="packages-grid">
+        <!-- Starter -->
+        <article class="pkg-card" data-aos="fade-up" data-cursor="hover">
+          <div class="pkg-head">
+            <h3>Starter</h3>
+            <p class="pkg-tag">البداية القوية · For startups & small projects</p>
+          </div>
+          <div class="pkg-price">
+            <span class="currency">$</span>
+            <span class="amount" data-usd="75" data-egp="3500">75</span>
+            <span class="period">/month</span>
+          </div>
+          <p class="pkg-starting">Starting from · يبدأ من</p>
+          <ul class="pkg-features">
+            <li>✓ Simple Logo (if needed)</li>
+            <li>✓ 8 Social Media Posts / month</li>
+            <li>✓ 2 Reels / month</li>
+            <li>✓ 1 Platform Management</li>
+            <li>✓ Basic Caption Writing</li>
+            <li>✓ Monthly Analytics Report</li>
+            <li class="off">✗ Paid Ads Management</li>
+            <li class="off">✗ AI Automation</li>
+          </ul>
+          <a href="#booking" class="btn btn-outline pkg-btn" data-cursor="hover" data-package="Starter">Get Started</a>
+        </article>
+
+        <!-- Growth -->
+        <article class="pkg-card pkg-featured" data-aos="fade-up" data-aos-delay="100" data-cursor="hover">
+          <div class="pkg-badge">🔥 Most Popular</div>
+          <div class="pkg-head">
+            <h3>Growth</h3>
+            <p class="pkg-tag">النمو الحقيقي · For scaling businesses</p>
+          </div>
+          <div class="pkg-price">
+            <span class="currency">$</span>
+            <span class="amount" data-usd="180" data-egp="8500">180</span>
+            <span class="period">/month</span>
+          </div>
+          <p class="pkg-starting">Starting from · يبدأ من</p>
+          <ul class="pkg-features">
+            <li>✓ Full Logo + Brand Kit</li>
+            <li>✓ 16 Social Media Posts / month</li>
+            <li>✓ 4 Reels + 1 Ad video / month</li>
+            <li>✓ 2-3 Platforms Management</li>
+            <li>✓ Meta & Google Ads Setup</li>
+            <li>✓ AI Chatbot (Basic)</li>
+            <li>✓ Weekly Analytics + Strategy Call</li>
+            <li>✓ Dedicated Account Manager</li>
+          </ul>
+          <a href="#booking" class="btn btn-primary pkg-btn" data-cursor="hover" data-package="Growth">Get Started</a>
+        </article>
+
+        <!-- Domination -->
+        <article class="pkg-card" data-aos="fade-up" data-aos-delay="200" data-cursor="hover">
+          <div class="pkg-head">
+            <h3>Domination</h3>
+            <p class="pkg-tag">السيطرة الكاملة · Full market takeover</p>
+          </div>
+          <div class="pkg-price">
+            <span class="currency">$</span>
+            <span class="amount" data-usd="380" data-egp="18000">380</span>
+            <span class="period">/month</span>
+          </div>
+          <p class="pkg-starting">Starting from · يبدأ من</p>
+          <ul class="pkg-features">
+            <li>✓ Full Rebrand + Guidelines</li>
+            <li>✓ Unlimited Social Posts</li>
+            <li>✓ 8+ Videos & Motion Graphics</li>
+            <li>✓ 4 Platforms Full Management</li>
+            <li>✓ Full Ads Management (Meta + Google)</li>
+            <li>✓ Advanced AI Automation System</li>
+            <li>✓ Website Development</li>
+            <li>✓ 24/7 Priority Support</li>
+          </ul>
+          <a href="#booking" class="btn btn-outline pkg-btn" data-cursor="hover" data-package="Domination">Get
+            Started</a>
+        </article>
+      </div>
+
+      <p class="pkg-note" data-aos="fade-up">
+        Need something custom? <a href="#booking">Let's build it →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== PROCESS ==================== -->
+  <section class="process section" id="process">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-aos="fade-up">06 · How We Work</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          Our <span class="red">process<i>.</i></span>
+        </h2>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step" data-aos="fade-up">
+          <span class="step-num">01</span>
+          <h3>Discovery</h3>
+          <p>We dive deep into your brand, market and goals. No assumptions, only insights.</p>
+        </div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+          <span class="step-num">02</span>
+          <h3>Strategy</h3>
+          <p>We design a custom roadmap — creative direction, timelines, and KPIs.</p>
+        </div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+          <span class="step-num">03</span>
+          <h3>Execution</h3>
+          <p>Our team builds, designs, films and launches — with weekly check-ins.</p>
+        </div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+          <span class="step-num">04</span>
+          <h3>Results</h3>
+          <p>We optimize based on real data. You see the growth. Rinse & repeat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== BOOKING / CONTACT ==================== -->
+  <section class="booking section" id="booking">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-aos="fade-up">07 · Book a Call</span>
+        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100">
+          Let's make <br /><span class="red">something loud<i>.</i></span>
+        </h2>
+      </div>
+
+      <div class="booking-grid" id="contact">
+        <!-- Contact info -->
+        <div class="booking-info" data-aos="fade-right">
+          <h3>Ready to start?</h3>
+          <p class="booking-lead">
+            Send us a message. We reply within <b class="red">24 hours</b>.
+            Or grab your phone and message us on WhatsApp right now.
+          </p>
+
+          <a href="https://wa.me/201060690384?text=Hi%20TAFRA%2C%20I%27m%20interested%20in%20your%20services%2E"
+            target="_blank" class="wa-cta" data-cursor="hover">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.693.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            </svg>
+            Chat on WhatsApp
+          </a>
+
+          <ul class="contact-list">
+            <li>
+              <span class="ci-label">Email</span>
+              <a href="mailto:youssef.y3e@gmail.com" data-cursor="hover">youssef.y3e@gmail.com</a>
+            </li>
+            <li>
+              <span class="ci-label">Phone / WhatsApp</span>
+              <a href="https://wa.me/201060690384" target="_blank" data-cursor="hover">+20 106 069 0384</a>
+            </li>
+            <li>
+              <span class="ci-label">Location</span>
+              <span>Cairo, Egypt · Working worldwide</span>
+            </li>
+            <li>
+              <span class="ci-label">Response time</span>
+              <span>Within 24 hours (usually 1-2h)</span>
+            </li>
+          </ul>
+
+          <div class="socials-block">
+            <h4>Follow the chaos:</h4>
+            <div class="socials">
+              <a href="https://www.behance.net/youssefessam27" target="_blank" data-cursor="hover" aria-label="Behance"
+                title="Behance">Bē</a>
+              <a href="https://www.linkedin.com/in/youssef-essam-y3" target="_blank" data-cursor="hover"
+                aria-label="LinkedIn" title="LinkedIn">in</a>
+              <a href="https://www.facebook.com/profile.php?id=61562645433752&mibextid=JRoKGi" target="_blank"
+                data-cursor="hover" aria-label="Facebook" title="Facebook">f</a>
+              <a href="https://www.instagram.com/youssef_essam.y3/" target="_blank" data-cursor="hover"
+                aria-label="Instagram" title="Instagram">ig</a>
+              <a href="https://vimeo.com/user230013481" target="_blank" data-cursor="hover" aria-label="Vimeo"
+                title="Vimeo">V</a>
+              <a href="https://wa.me/201060690384" target="_blank" data-cursor="hover" aria-label="WhatsApp"
+                title="WhatsApp">wa</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <form class="booking-form" id="contactForm" data-aos="fade-left">
+          <h3>Send a project brief</h3>
+          <p class="form-lead">Fill in this form — the message will arrive at <b>youssef.y3e@gmail.com</b> instantly.
+          </p>
+          <!-- Web3Forms (PRIMARY BACKEND — replace the key below with yours) -->
+          <input type="hidden" name="access_key" value="da9c9950-5685-43ad-aad3-cfa7ab612973" />
+          <input type="hidden" name="subject" value="🔥 New TAFRA Lead from Website" />
+          <input type="hidden" name="from_name" value="TAFRA Website" />
+          <input type="hidden" name="redirect" value="false" />
+          <!-- Honeypot -->
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <div class="form-row">
+            <div class="form-field">
+              <label>Full Name *</label>
+              <input type="text" name="name" required placeholder="Your full name" data-cursor="hover" />
+            </div>
+            <div class="form-field">
+              <label>Email *</label>
+              <input type="email" name="email" required placeholder="you@company.com" data-cursor="hover" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label>Phone / WhatsApp *</label>
+              <input type="tel" name="phone" required placeholder="+20 100 000 0000" data-cursor="hover" />
+            </div>
+            <div class="form-field">
+              <label>Company / Brand</label>
+              <input type="text" name="company" placeholder="Your business name" data-cursor="hover" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label>Service Needed *</label>
+              <select name="service" required data-cursor="hover">
+                <option value="">Select a service...</option>
+                <option>AI Automation</option>
+                <option>Graphic Design</option>
+                <option>Video Editing</option>
+                <option>Marketing</option>
+                <option>Full Package (All-in-one)</option>
+                <option>Other / Not sure</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label>Package Interest</label>
+              <select name="package" id="packageSelect" data-cursor="hover">
+                <option value="">None / Not sure</option>
+                <option value="Starter">Starter — from $75/mo</option>
+                <option value="Growth">Growth — from $180/mo</option>
+                <option value="Domination">Domination — from $380/mo</option>
+                <option value="Custom">Custom project</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label>Budget Range</label>
+              <select name="budget" data-cursor="hover">
+                <option value="">Select budget...</option>
+                <option>Under $100 / 3,000 EGP</option>
+                <option>$100 – $300 / 3,000 – 10,000 EGP</option>
+                <option>$300 – $700 / 10,000 – 30,000 EGP</option>
+                <option>$700 – $2,000 / 30,000 – 100,000 EGP</option>
+                <option>$2,000+ / 100,000+ EGP</option>
+                <option>Let's discuss</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label>Timeline</label>
+              <select name="timeline" data-cursor="hover">
+                <option value="">Select timeline...</option>
+                <option>ASAP (Rush — +30% fee)</option>
+                <option>Within 1 week</option>
+                <option>Within 2-4 weeks</option>
+                <option>1-3 months</option>
+                <option>Flexible</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label>Tell us about your project *</label>
+            <textarea name="message" rows="5" required
+              placeholder="Your goals, current challenges, references, anything relevant..."
+              data-cursor="hover"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" data-cursor="hover">
+            <span class="btn-label">Send Message · نبعت الرسالة →</span>
+            <span class="btn-loading">Sending...</span>
+          </button>
+
+          <p class="form-hint">By submitting, you'll also get a copy of your brief + a WhatsApp confirmation option.</p>
+
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <h4>TAFRA<i class="dot">.</i></h4>
+          <p>Cairo-based creative tech agency. AI · Design · Video · Marketing.</p>
+          <p class="footer-tag">"We Solve. You Profit."</p>
+        </div>
+        <div>
+          <h5>Navigate</h5>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#works">Works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#packages">Packages</a>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <a href="mailto:youssef.y3e@gmail.com">youssef.y3e@gmail.com</a>
+          <a href="https://wa.me/201060690384" target="_blank">+20 106 069 0384</a>
+          <a href="#booking">Book a call →</a>
+        </div>
+        <div>
+          <h5>Follow</h5>
+          <a href="https://www.behance.net/youssefessam27" target="_blank">Behance</a>
+          <a href="https://www.linkedin.com/in/youssef-essam-y3" target="_blank">LinkedIn</a>
+          <a href="https://www.instagram.com/youssef_essam.y3/" target="_blank">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61562645433752&mibextid=JRoKGi" target="_blank">Facebook</a>
+          <a href="https://vimeo.com/user230013481" target="_blank">Vimeo</a>
+        </div>
+      </div>
+
+      <div class="footer-mega">TAFRA<i class="dot">.</i></div>
+
+      <div class="footer-bottom">
+        <span>© 2026 TAFRA Agency · Designed by Youssef Essam · All rights reserved.</span>
+        <button class="back-to-top" id="backToTop" data-cursor="hover">Back to top ↑</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/201060690384?text=Hi%20TAFRA%21%20I%27m%20interested%20in%20your%20services%2E" target="_blank"
+    class="wa-float" data-cursor="hover" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.693.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="works/works.js"></script>
+  <script src="js/pricing-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
